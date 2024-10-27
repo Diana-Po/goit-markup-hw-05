@@ -281,7 +281,6 @@ img {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  /* deleted margin right 24px */
 }
 .team-cards:last-child {
   margin-right: 0;
@@ -363,13 +362,11 @@ img {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  /*added*/
   background-color: #404bbf;
 }
 
 .our-portfolio {
   padding: 120px 0;
-  /* deleted margin-bottom: 72px; */
 }
 
 .title-portfolio {
@@ -448,8 +445,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px; /* deleted
-  /* deleted text-align: center; */
+  margin-bottom: 8px;
 }
 .portfolio-features-text {
   font-weight: 400;
@@ -457,8 +453,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* deleted margin-bottom: 32px; */
-  /* deleted text-align: center; */
 }
 
 .footer {
@@ -468,16 +462,10 @@ img {
 }
 .footer-container {
   display: flex;
-  align-items: baseline; /* added */
-  /* justify-content: space-between;
-  align-items: center;  two last ones added */
+  align-items: baseline;
 }
 .footer-conclusion {
   margin-right: 120px;
-
-  /* display: inline-block;
-  align-items: center;
-  justify-content: space-between; ??? */
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -591,7 +579,7 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff; /* last change */
+  color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -604,7 +592,7 @@ img {
   display: flex;
 }
 .footer-input::placeholder {
-  color: #fff; /*add*/
+  color: #fff;
 }
 
 .footer-btn {
@@ -636,7 +624,7 @@ img {
 }
 .footer-vector {
   fill: #fff;
-  margin-left: 16px; /*add*/
+  margin-left: 16px;
 }
 .backdrop {
   width: 100%;
@@ -667,7 +655,6 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*padding: 24px; removed */
   padding: 72px 24px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -687,17 +674,17 @@ img {
   transition: background-color 250ms
       cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer; /*add*/
+  cursor: pointer;
 }
 .modal-open:hover,
 .modal-open:focus {
   background-color: #404bbf;
   fill: #fff;
-  border: none; /*add*/
+  border: none;
 }
 .open-btn {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} /*add*/
+}
 .modal-title {
   margin-top: 24px;
   text-align: center;
@@ -721,7 +708,6 @@ img {
   height: 40px;
   padding-left: 38px;
   background-color: transparent;
-  /* padding-left: 61px; removed */
   outline: transparent;
   transition: border-color 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
@@ -817,7 +803,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 .modal-check-text span {
@@ -843,17 +829,6 @@ img {
   fill: #f4f4fd;
   border: none;
 }
-
-/*.modal-span {
-  width: 16px;
-  height: 16px;
-  display: inline-flex;
-  transition: background-color 250ms
-      cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} moved higher */
-
 .privacy-policy {
   color: #4d5ae5;
 }

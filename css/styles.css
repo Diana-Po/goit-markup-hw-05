@@ -721,7 +721,7 @@ img {
   height: 40px;
   padding-left: 38px;
   background-color: transparent;
-  padding-left: 61px;
+  /* padding-left: 61px; removed */
   outline: transparent;
   transition: border-color 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
@@ -777,7 +777,9 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-
+.modal-comment-field {
+  margin-bottom: 16px;
+}
 .modal-btn {
   margin: 0 auto;
   display: block;
@@ -819,15 +821,22 @@ img {
   align-items: center;
 }
 .modal-check-text span {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   fill: transparent;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  transition: background-color 250ms
+      cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check:checked + .modal-check-text span {
@@ -838,7 +847,7 @@ img {
   border: none;
 }
 
-.modal-span {
+/*.modal-span {
   width: 16px;
   height: 16px;
   display: inline-flex;
@@ -846,7 +855,7 @@ img {
       cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} moved higher */
 
 .privacy-policy {
   color: #4d5ae5;

@@ -807,7 +807,9 @@ img {
 .modal-btn:focus {
   background: #404bbf;
 }
-
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
 .modal-check-text {
   font-size: 12px;
   line-height: 1.17;
@@ -839,8 +841,13 @@ img {
 .modal-span {
   width: 16px;
   height: 16px;
+  display: inline-flex;
   transition: background-color 250ms
       cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.privacy-policy {
+  color: #4d5ae5;
 }
